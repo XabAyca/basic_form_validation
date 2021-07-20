@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verification <form action=""></form></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>
+      Formulaire de vérification
+    </h1>
+  </header>
+
+  <form action="congrat.html" method="post"onsubmit="return validateForm()">
+    <div>
+      <input type="text" name="" id="last-name" placeholder="Nom" required>
+    </div>
+    <div>
+      <input type="text" name="" id="first-name" placeholder="Prénom" required>
+    </div>
+    <div>
+      <input type="number" name="" id="age" placeholder="Age" required>
+    </div>
+    <div>
+      <input type="email" name="" id="email" placeholder="E-mail" required>
+    </div>
+    <div>
+      <input type="email" name="" id="email-confirm" placeholder="Confirmation de  l'e-mail" required>
+    </div>
+    <div>
+      <input type="password" name="" id="password" placeholder="Mot de passe">
+    </div>
+    <div>
+      <input type="password" name="" id="password-confirm" placeholder="Confirmation mot de passe" required>
+    </div>
+    <div>
+      <label for="">Accepter les CGU:</label>
+      <input type="checkbox" name="" id="cgu">
+    </div>
+    <div>
+      <button type="submit" >Envoyer</button>
+    </div>    
+  </form>
+
+
+
+
+  <script src="/script_01.js"></script>
+</body>
+</html>
